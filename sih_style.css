@@ -1,0 +1,27 @@
+
+.container{
+    padding-left: 10%;;
+    margin-top: 50px;}
+.container iframe{
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+  }
+  .head{
+      margin-left: 40%;
+      margin-top: 25px;
+      color:#e2c956;
+  }
+
+  #Date ,#Time {
+      color:white;
+
+  }
+  #Date{
+      display: inline;
+  }

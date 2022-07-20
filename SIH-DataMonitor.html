@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" href="sih_style.css">
+</head>
+<body>
+      <div class="head">
+            <h2>Condition in Mine</h2>
+      </div>
+      <div id="Date">
+            Date:
+      </div>
+      <div id="Time">
+            Time:
+      </div>
+      <div class="container">
+            <iframe
+                  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUWOJYZdYH1k_yk5ZmgdsRrVtIz243x1HBPb8oXldsIjBqB7OD9on1u0llgitCyA/pubhtml?gid=1642371266&amp;single=true&amp;widget=true&amp;headers=false"
+                  height="500px" width="92%"></iframe>
+      </div>
+
+      <body>
+
+<body>
+      <script>
+            // program to display the date
+// get local machine date time
+const date = new Date();
+
+// get the date as a string
+const n = date.toDateString();
+
+// get the time as a string
+const time = date.toLocaleTimeString();
+
+// display date
+console.log('Date: ' + n);
+
+// display time
+console.log('Time: ' + time);
+var a=document.getElementById("Date");
+a.innerHTML+=n;
+var b=document.getElementById("Time");
+b.innerHTML+=time;
+      </script>
+</html>
+
